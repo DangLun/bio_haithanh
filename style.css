@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg,#fff3b0, #cd57f4,#fff3b0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Quicksand", sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 600px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px white;
+}
+.logo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.Name{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.Major{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.link{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+.link i{
+    font-size: 25px;
+}
+.link-item{
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.iconZalo{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.link:nth-child(1):hover{
+    border-color: #0866ff;
+    color: #0866ff;
+    background-color: white;
+    transition: linear .2s;
+}
+.link:nth-child(2):hover{
+    border-color: #0090e6;
+    color: white;
+    background-color: #0090e6;
+    transition: linear .2s;
+}
+.link:nth-child(3):hover{
+    border-color: #121212;
+    color: white;
+    background-color: #121212;
+    transition: linear .2s;
+}
+.link:nth-child(4):hover{
+    border-color: #807fff;
+    color: white;
+    background-color: #807fff;
+    transition: linear .2s;
+}
+
